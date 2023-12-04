@@ -1,0 +1,38 @@
+body {
+  color: #fff;
+  margin: 0%;
+}
+
+header {
+  display: flex;
+  height: 90px;
+  padding: 15px 30px;
+  align-items: center;
+  gap: 22px;
+  background: #16304e;
+}
+
+.textos {
+  height: 43px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.textos h3 {
+  color: #fff;
+  font-family: Indivisible;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0px;
+}
+
+.botones_header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+  padding: 0px;
+}
