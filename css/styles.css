@@ -36,3 +36,28 @@ header {
   margin: 5px;
   padding: 0px;
 }
+
+.textos .separador_botones {
+  width: 1px;
+  height: 12px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.textos li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0px;
+}
+
+.textos a {
+  color: #fff;
+  font-family: Indivisible;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: none;
+}
