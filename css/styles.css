@@ -116,6 +116,12 @@ main .buscador {
   font-weight: 600;
 }
 
+main .buscador .separador {
+  height: 25px;
+  width: 2px;
+  background-color: black;
+}
+
 #search-form input {
   width: 100%;
   border: none;
@@ -142,6 +148,97 @@ main .buscador {
   border-radius: 5px;
   background: #dd9c2b;
   border: 0px;
+}
+
+main .noticias {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+  position: absolute;
+  top: 620px;
+  background: #fff;
+}
+
+main .noticias h4 {
+  display: flex;
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0px;
+  background: #f6c11b;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  color: #000;
+}
+
+main .noticias h2 {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0px;
+}
+
+main .noticias p {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0px;
+}
+
+main .noticias nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+main .noticias article {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 336px;
+  height: 478px;
+  position: relative;
+}
+
+main .noticias .brujula {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+main .noticias .textos {
+  display: flex;
+  width: 247px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 17px;
+  position: absolute;
+  left: 15px;
+  bottom: 29px;
+}
+
+main .noticias .textos h2 {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+main .noticias .textos p {
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
 }
 
 @media (max-width: 927px) {
