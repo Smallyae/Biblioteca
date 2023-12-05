@@ -152,7 +152,7 @@ main .buscador .separador {
 
 main .noticias {
   display: flex;
-  width: 95%;
+  width: 98%;
   flex-direction: column;
   align-items: center;
   gap: 52px;
