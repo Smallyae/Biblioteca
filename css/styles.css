@@ -1,133 +1,78 @@
 body {
+  margin: 0;
+  padding: 0;
+  font-family: Indivisible;
+  background: #fff;
   color: #fff;
-  margin: 0%;
 }
 
 header {
   display: flex;
-  height: 90px;
-  padding: 15px 30px;
+  padding: 17px 30px;
   align-items: center;
   gap: 22px;
   background: #16304e;
 }
 
-.textos {
-  height: 43px;
-  margin: 0px;
-  padding: 0px;
+.separador_header {
+  height: 56px;
+  width: 2px;
+  background-color: white;
 }
 
-.textos h3 {
-  color: #fff;
-  font-family: Indivisible;
+header .Textos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+header h3 {
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
+  font-style: normal;
   line-height: normal;
   margin: 0px;
 }
 
-.botones_header {
-  display: inline-flex;
-  justify-content: center;
+header .botones {
+  display: flex;
   align-items: center;
   gap: 10px;
-  margin: 5px;
-  padding: 0px;
 }
 
-.textos .separador_botones {
+header .Textos .Separador {
   width: 1px;
   height: 12px;
-  border-color: #fff;
-  color: #fff;
+  background-color: white;
 }
 
-.textos li {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 0px;
-}
-
-.textos a {
-  color: #fff;
-  font-family: Indivisible;
+header a {
+  color: white;
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
-  line-height: normal;
   text-decoration: none;
 }
 
-main {
-  position: relative;
+header .btn {
+  display: none;
+  margin-left: auto;
 }
 
-.imagen_fondo {
-  position: absolute;
-  z-index: 1;
-  width: 1920px;
-  height: 724px;
-  flex-shrink: 0;
+@media (max-width: 927px) {
+  header .btn {
+    display: block;
+  }
+  header {
+    background-color: red;
+  }
 }
-
-.titulo {
-  background: rgba(24, 81, 102, 0.8);
-  position: absolute; /* Cambia esto */
-  z-index: 2;
-  padding: 78px 506px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.titulo h1 {
-  color: #fff;
-  font-family: Indivisible;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin: 0px;
-}
-
-.buscador {
-  display: inline-flex;
-  position: relative;
-  z-index: 2;
-  padding: 8px 10px 8px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 326px;
-  border-radius: 5px;
-  background: #fff;
-}
-
-#BuscadorUtadeo input[type="search"] {
-  border: none; /* Quita el borde */
-  outline: none; /* Quita el resaltado al hacer clic en el elemento */
-  box-shadow: none; /* Quita la sombra de la caja */
-  color: #a8a8a8;
-  font-family: Indivisible;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-#BuscadorUtadeo select {
-  border: none;
-  outline: none; /* Quita el resaltado al hacer clic en el elemento */
-  box-shadow: none; /* Quita la sombra de la caja */
-  appearance: none; /* Quita la flecha predeterminada */
-  background-image: url("/Img/svg/Flecha.svg"); /* Agrega tu nueva flecha */
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-#searchEngine {
-  padding-right: 17px;
+@media (max-width: 400px) {
+  header .btn {
+    display: block;
+  }
+  header {
+    background-color: blueviolet;
+  }
 }
