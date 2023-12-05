@@ -61,3 +61,73 @@ header {
   line-height: normal;
   text-decoration: none;
 }
+
+main {
+  position: relative;
+}
+
+.imagen_fondo {
+  position: absolute;
+  z-index: 1;
+  width: 1920px;
+  height: 724px;
+  flex-shrink: 0;
+}
+
+.titulo {
+  background: rgba(24, 81, 102, 0.8);
+  position: absolute; /* Cambia esto */
+  z-index: 2;
+  padding: 78px 506px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.titulo h1 {
+  color: #fff;
+  font-family: Indivisible;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+}
+
+.buscador {
+  display: inline-flex;
+  position: relative;
+  z-index: 2;
+  padding: 8px 10px 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 326px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+#BuscadorUtadeo input[type="search"] {
+  border: none; /* Quita el borde */
+  outline: none; /* Quita el resaltado al hacer clic en el elemento */
+  box-shadow: none; /* Quita la sombra de la caja */
+  color: #a8a8a8;
+  font-family: Indivisible;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#BuscadorUtadeo select {
+  border: none;
+  outline: none; /* Quita el resaltado al hacer clic en el elemento */
+  box-shadow: none; /* Quita la sombra de la caja */
+  appearance: none; /* Quita la flecha predeterminada */
+  background-image: url("/Img/svg/Flecha.svg"); /* Agrega tu nueva flecha */
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#searchEngine {
+  padding-right: 17px;
+}
