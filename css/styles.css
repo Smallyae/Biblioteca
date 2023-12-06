@@ -245,6 +245,8 @@ main .noticias .textos p {
 footer {
   display: inline-flex;
   align-items: flex-start;
+  align-items: stretch;
+  width: 100%;
 }
 
 footer .footer_iz {
@@ -323,6 +325,99 @@ footer .footer_iz {
   font-weight: 300;
   margin: 0px;
   text-decoration: none;
+}
+
+footer .footer_de {
+  display: flex;
+  padding: 44px 0px 10px 36px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background: #ebebeb;
+  width: 100%;
+}
+
+.footer_de .sedes {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.sedes .derecha {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 33px;
+}
+
+.sedes .sede {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.sede h2 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  color: #17558f;
+  margin: 0px;
+}
+
+.sede .separador {
+  width: 39px;
+  height: 1px;
+  background-color: #17558f;
+}
+
+.sede .titulo {
+  gap: 2px;
+}
+
+.sede p {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  color: #838584;
+  margin: 0px;
+}
+
+.sede h3 {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  color: #838584;
+  margin: 0px;
+}
+
+.footer_de .separador {
+  background-color: #bfbebe;
+  width: 80%;
+  height: 1px;
+}
+
+.footer_de .legal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.legal p {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  color: #838584;
+  margin: 0px;
+}
+
+.legal a {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  color: #327bb8;
 }
 
 @media (max-width: 927px) {
