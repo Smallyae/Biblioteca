@@ -95,7 +95,6 @@ main .buscador {
   width: 710px;
   padding: 8px 10px;
   position: absolute;
-  right: 25%;
   top: 290px;
   border-radius: 5px;
   background: #fff;
@@ -152,7 +151,6 @@ main .buscador .separador {
 
 main .noticias {
   display: flex;
-  width: 98%;
   flex-direction: column;
   align-items: center;
   gap: 52px;
@@ -191,7 +189,7 @@ main .noticias p {
   margin: 0px;
 }
 
-main .noticias nav {
+main .noticias .articulos {
   display: flex;
   justify-content: center;
   align-items: center;
