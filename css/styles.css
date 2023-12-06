@@ -114,7 +114,7 @@ main .buscador {
 
 #search-engine {
   appearance: none;
-  background-image: url("/Img/svg/Flecha.svg");
+  background-image: url("./Img/svg/Flecha.svg");
   background-position: right center;
   background-repeat: no-repeat;
   border: none;
@@ -251,6 +251,7 @@ main .noticias .textos p {
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
+  text-align: left;
 }
 
 footer {
