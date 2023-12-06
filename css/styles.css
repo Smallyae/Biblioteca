@@ -33,6 +33,7 @@ header h3 {
   font-style: normal;
   line-height: normal;
   margin: 0px;
+  display: inline;
 }
 
 header .botones {
@@ -450,7 +451,7 @@ footer .footer_de {
   header .movil {
     display: flex;
     align-items: center;
-    width: fit-content;
+    width: auto;
   }
 
   header .btn {
@@ -490,11 +491,34 @@ footer .footer_de {
   }
 
   footer .footer_de {
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 0px 10px 0px;
+  }
+
+  .footer_de .sedes {
+    flex-direction: column;
     align-items: center;
   }
 
-  .footer_de {
+  .sedes .sede {
     align-items: center;
+  }
+
+  .sedes .derecha {
+    align-items: center;
+  }
+
+  .footer_de .legal {
+    align-items: center;
+  }
+
+  .legal p {
+    text-align: center;
+  }
+
+  .legal a {
+    text-align: center;
   }
 }
 @media (max-width: 740px) {
