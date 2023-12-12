@@ -541,6 +541,16 @@ footer .footer_de {
     top: -10px;
   }
 
+  main .noticias article {
+    height: 337px;
+  }
+
+  main .noticias article .imgnoticia {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 100%; /* Asegura que la imagen ocupe toda la altura del contenedor */
+    object-fit: cover; /* La imagen se redimensionará para cubrir todo el contenedor, manteniendo su aspecto */
+  }
+
   footer {
     flex-direction: column;
   }
@@ -618,5 +628,9 @@ footer .footer_de {
     height: 32px;
     width: 106px;
     font-size: 10px;
+  }
+
+  main .noticias article {
+    height: 246px;
   }
 }
