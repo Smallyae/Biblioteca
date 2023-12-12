@@ -62,6 +62,32 @@ header #btn {
   cursor: pointer;
 }
 
+/* Estilo original */
+header .line {
+  width: 28.625px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease; /* Añade una transición para la animación */
+}
+
+/* Estilo para la línea superior al hacer clic */
+header .line.top-clicked {
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+/* Estilo para la línea del medio al hacer clic */
+header .line.middle-clicked {
+  opacity: 0;
+}
+
+/* Estilo para la línea inferior al hacer clic */
+header .line.bottom-clicked {
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
 header .movil {
   display: none;
 }
@@ -470,8 +496,10 @@ footer .footer_de {
     height: 40px;
     width: 40px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     border-radius: 5px;
     border: 0px;
     background: #0f2033;
