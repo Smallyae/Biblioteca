@@ -155,6 +155,7 @@ main .buscador {
   font-style: normal;
   font-weight: 600;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 main .buscador .separador {
@@ -189,6 +190,7 @@ main .buscador .separador {
   border-radius: 5px;
   background: #dd9c2b;
   border: 0px;
+  cursor: pointer;
 }
 
 main .noticias {
@@ -631,6 +633,6 @@ footer .footer_de {
   }
 
   main .noticias article {
-    height: 246px;
+    height: 282px;
   }
 }
